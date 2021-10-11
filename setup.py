@@ -7,7 +7,7 @@ requirements = ["pip>=21.2.4", "wheel>=0.37.0", "azure.storage.blob>=1.2.0"]
 
 setup(
     name="congablobservice",
-    version="0.0.1",
+    version="0.0.3",
     author="Nikola Markovic",
     author_email="nmarkovic@conga.com",
     description="A package defines methods for Azure Blob Storage access",
