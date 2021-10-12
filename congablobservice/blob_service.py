@@ -15,8 +15,7 @@ class BlobService:
             connection_string)
 
     def get_specific_blob_client(self, conn_str, container_name, blob_name):
-        return BlobClient.from_connection_string(self,
-                                                 conn_str=conn_str,
+        return BlobClient.from_connection_string(conn_str=conn_str,
                                                  container_name=container_name,
                                                  blob_name=blob_name)
 
